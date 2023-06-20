@@ -79,7 +79,7 @@ function SolarSystem() {
           <Planet position={[27, 0, 0]} args={[2.5, 32, 32]} color='#ff9900' speed={0.004} orbitRadius={27} /> {/* Jupiter */}
           <Planet position={[30, 0, 0]} args={[2.2, 32, 32]} color='#ffcc00' speed={0.003} orbitRadius={30} /> {/* Saturne */}
           <Planet position={[33, 0, 0]} args={[1.5, 32, 32]} color='#00ffff' speed={0.002} orbitRadius={33} /> {/* Uranus */}
-          <Planet position={[36, 0, 0]} args={[1.3, 32, 32]} color='#0000ff' speed={0.001} orbitRadius={36} /> {/* Neptune */}
+          <Planet position={[36, 0, 0]} args={[1.3, 32, 32]} color='red' speed={0.001} orbitRadius={36} /> {/* Neptune */}
           <Planet position={[39, 0, 0]} args={[0.8, 32, 32]} color='#ffffff' speed={0.0005} orbitRadius={39} /> {/* Pluton */}
         </group>
         <OrbitControls />
