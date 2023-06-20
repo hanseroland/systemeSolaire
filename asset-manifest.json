@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9259e32.css",
-    "main.js": "/static/js/main.511b2ba6.js",
-    "static/js/787.c7050244.chunk.js": "/static/js/787.c7050244.chunk.js",
-    "static/media/space3.jpg": "/static/media/space3.a3029b7586d3d6d8d9e9.jpg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.a9259e32.css.map": "/static/css/main.a9259e32.css.map",
-    "main.511b2ba6.js.map": "/static/js/main.511b2ba6.js.map",
-    "787.c7050244.chunk.js.map": "/static/js/787.c7050244.chunk.js.map"
+    "main.css": "/systemeSolaire/static/css/main.7b950367.css",
+    "main.js": "/systemeSolaire/static/js/main.0a892138.js",
+    "static/js/787.c7050244.chunk.js": "/systemeSolaire/static/js/787.c7050244.chunk.js",
+    "static/media/space3.jpg": "/systemeSolaire/static/media/space3.a3029b7586d3d6d8d9e9.jpg",
+    "index.html": "/systemeSolaire/index.html",
+    "main.7b950367.css.map": "/systemeSolaire/static/css/main.7b950367.css.map",
+    "main.0a892138.js.map": "/systemeSolaire/static/js/main.0a892138.js.map",
+    "787.c7050244.chunk.js.map": "/systemeSolaire/static/js/787.c7050244.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9259e32.css",
-    "static/js/main.511b2ba6.js"
+    "static/css/main.7b950367.css",
+    "static/js/main.0a892138.js"
   ]
 }
