@@ -3,7 +3,17 @@ import { Canvas, useFrame ,useLoader} from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { useSpring, a } from '@react-spring/three';
 import * as THREE from 'three';
-import { TextureLoader, BufferGeometry, BufferAttribute, PointsMaterial, Points, } from 'three';
+import { TextureLoader} from 'three';
+import Soleil from '../images/8k_sun.jpg'
+import Mercure from '../images/8k_mercure.jpg'
+import Venus from '../images/8k_venus1.jpg'
+import Terre from '../images/8k_earth.jpg'
+import Mars from '../images/Mars_Map.webp'
+import Jupiter from '../images/Jupiter.jpg'
+import Saturne from '../images/Saturn242.webp'
+import Uranus from '../images/Dh_uranus_texture.webp'
+import Neptune from '../images/2k_neptune.jpg'
+import Pluton from '../images/Pluto_Made.webp'
 
 
 const Planet = ({ position, args, color, speed, orbitRadius,path,showParticles  }) => {
@@ -84,16 +94,16 @@ function SystemSolaire() {
             <meshStandardMaterial attach='material' color='#ffcc00' />
           </mesh>
           */}
-          <Planet position={[0, 0, 0]} args={[10, 64, 64]} color='#ff0000' speed={0} orbitRadius={0}  path="/8k_sun.jpg"  showParticles={true} /> {/* Soleil */}
-          <Planet position={[15, 0, 0]} args={[1, 32, 32]} color='#ff0000' speed={0.01} orbitRadius={15} path="/8k_mercure.jpg" /> {/* Mercure */}
-          <Planet position={[18, 0, 0]} args={[1.5, 32, 32]} color='#ff6600' speed={0.008} orbitRadius={18} path="/8k_venus1.jpg"/> {/* Venus */}
-          <Planet position={[21, 0, 0]} args={[1.8, 32, 32]} color='#00ff00' speed={0.006} orbitRadius={21} path="/8k_earth.jpg"/> {/* Terre */}
-          <Planet position={[24, 0, 0]} args={[1.2, 32, 32]} color='#ff6600' speed={0.005} orbitRadius={24} path="/Mars_Map.webp"/> {/* Mars */}
-          <Planet position={[27, 0, 0]} args={[2.5, 32, 32]} color='#ff9900' speed={0.004} orbitRadius={27} path="/Jupiter.jpg"/> {/* Jupiter */}
-          <Planet position={[30, 0, 0]} args={[2.2, 32, 32]} color='#ffcc00' speed={0.003} orbitRadius={30} path="/Saturn242.webp"/> {/* Saturne */}
-          <Planet position={[33, 0, 0]} args={[1.5, 32, 32]} color='#00ffff' speed={0.002} orbitRadius={33} path="/Dh_uranus_texture.webp"/> {/* Uranus */}
-          <Planet position={[36, 0, 0]} args={[1.3, 32, 32]} color='#0000ff' speed={0.001} orbitRadius={36} path="/2k_neptune.jpg"/> {/* Neptune */}
-          <Planet position={[39, 0, 0]} args={[0.8, 32, 32]} color='#ffffff' speed={0.0005} orbitRadius={39} path="/Pluto_Made.webp"/> {/* Pluton */}
+          <Planet position={[0, 0, 0]} args={[10, 64, 64]} color='#ff0000' speed={0} orbitRadius={0}  path={Soleil} showParticles={true} /> {/* Soleil */}
+          <Planet position={[15, 0, 0]} args={[1, 32, 32]} color='#ff0000' speed={0.01} orbitRadius={15} path={Mercure} /> {/* Mercure */}
+          <Planet position={[18, 0, 0]} args={[1.5, 32, 32]} color='#ff6600' speed={0.008} orbitRadius={18} path={Venus} /> {/* Venus */}
+          <Planet position={[21, 0, 0]} args={[1.8, 32, 32]} color='#00ff00' speed={0.006} orbitRadius={21} path={Terre}/> {/* Terre */}
+          <Planet position={[24, 0, 0]} args={[1.2, 32, 32]} color='#ff6600' speed={0.005} orbitRadius={24} path={Mars}/> {/* Mars */}
+          <Planet position={[27, 0, 0]} args={[2.5, 32, 32]} color='#ff9900' speed={0.004} orbitRadius={27} path={Jupiter}/> {/* Jupiter */}
+          <Planet position={[30, 0, 0]} args={[2.2, 32, 32]} color='#ffcc00' speed={0.003} orbitRadius={30} path={Saturne}/> {/* Saturne */}
+          <Planet position={[33, 0, 0]} args={[1.5, 32, 32]} color='#00ffff' speed={0.002} orbitRadius={33} path={Uranus}/> {/* Uranus */}
+          <Planet position={[36, 0, 0]} args={[1.3, 32, 32]} color='#0000ff' speed={0.001} orbitRadius={36} path={Neptune}/> {/* Neptune */}
+          <Planet position={[39, 0, 0]} args={[0.8, 32, 32]} color='#ffffff' speed={0.0005} orbitRadius={39} path={Pluton}/> {/* Pluton */}
         </group>
         <OrbitControls />
       </Canvas>
