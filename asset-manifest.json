@@ -1,16 +1,26 @@
 {
   "files": {
     "main.css": "/systemeSolaire/static/css/main.7b950367.css",
-    "main.js": "/systemeSolaire/static/js/main.0a892138.js",
+    "main.js": "/systemeSolaire/static/js/main.76886c25.js",
     "static/js/787.c7050244.chunk.js": "/systemeSolaire/static/js/787.c7050244.chunk.js",
+    "static/media/8k_mercure.jpg": "/systemeSolaire/static/media/8k_mercure.b3bc4c353800a4a2a211.jpg",
+    "static/media/8k_earth.jpg": "/systemeSolaire/static/media/8k_earth.54672c1f3ba121d80470.jpg",
+    "static/media/8k_sun.jpg": "/systemeSolaire/static/media/8k_sun.b34e6ead10e18ad3ad77.jpg",
+    "static/media/Mars_Map.webp": "/systemeSolaire/static/media/Mars_Map.59a9c48d3974aaead559.webp",
+    "static/media/Pluto_Made.webp": "/systemeSolaire/static/media/Pluto_Made.94a3bff8090be76def39.webp",
+    "static/media/2k_neptune.jpg": "/systemeSolaire/static/media/2k_neptune.6dd112666aad0cd68958.jpg",
+    "static/media/Jupiter.jpg": "/systemeSolaire/static/media/Jupiter.d1bf449217d2b54874cd.jpg",
+    "static/media/Saturn242.webp": "/systemeSolaire/static/media/Saturn242.f552342404293cfdbd4f.webp",
     "static/media/space3.jpg": "/systemeSolaire/static/media/space3.a3029b7586d3d6d8d9e9.jpg",
+    "static/media/Dh_uranus_texture.webp": "/systemeSolaire/static/media/Dh_uranus_texture.c9d9bcfd059427b2d96a.webp",
+    "static/media/8k_venus1.jpg": "/systemeSolaire/static/media/8k_venus1.703a5264ad9ad76a7e93.jpg",
     "index.html": "/systemeSolaire/index.html",
     "main.7b950367.css.map": "/systemeSolaire/static/css/main.7b950367.css.map",
-    "main.0a892138.js.map": "/systemeSolaire/static/js/main.0a892138.js.map",
+    "main.76886c25.js.map": "/systemeSolaire/static/js/main.76886c25.js.map",
     "787.c7050244.chunk.js.map": "/systemeSolaire/static/js/787.c7050244.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b950367.css",
-    "static/js/main.0a892138.js"
+    "static/js/main.76886c25.js"
   ]
 }
